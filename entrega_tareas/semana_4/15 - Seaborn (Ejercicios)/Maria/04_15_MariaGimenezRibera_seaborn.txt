@@ -1,0 +1,9 @@
+fig, axes = plt.subplots(2, 2, figsize=(10,8))
+
+fig.tight_layout()
+
+sns.boxplot(x="Gender", y="Loan_Amount_Term", data=data,palette='rainbow', ax = axes[1][0])
+sns.boxplot(x="Gender", y="LoanAmount", data=data,palette='rainbow')
+
+sns.histplot(data['LoanAmount'], color="red", label="100% Equities", kde=True, stat="density", linewidth=0, ax = axes[0][1])
+sns.histplot(data['Loan_Amount_Term'], color="brown", label="100% Equities", kde=True, stat="density", linewidth=0, ax = axes[0][0])
