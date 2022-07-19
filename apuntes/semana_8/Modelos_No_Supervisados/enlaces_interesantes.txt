@@ -1,0 +1,2 @@
+Un modelo basado en densidad: https://rubialesalberto.medium.com/clustering-con-dbscan-y-hdbscan-con-python-y-sus-hiperpar%C3%A1metros-en-sklearn-8728283b96ac
+Algunos modelos para estudiar lo que ha hecho nuestro modelo: https://www.aprendemachinelearning.com/interpretacion-de-modelos-de-machine-learning/#more-6814
